@@ -63,17 +63,11 @@ In this section, you will use the **Dual Analog Switch** module to sample a simp
 3.  Ensure the oscilloscope Trigger Source is set to **CH1** (or INT) and Mode is set to **CH1**.
 4.  View the signals in **DUAL** mode to compare the message and the sampled output.
 
-**Block Diagram Setup:**
+**Block Diagram Output:**
 
-<br>
-<br>
-<br>
-[INSERT FIGURE 3 HERE]
-<br>
-<br>
-<br>
+![Image](https://github.com/user-attachments/assets/51838e21-8576-446e-9672-c2d9218e9dd2)
 
-*Figure 3: Block diagram showing the Message (2kHz) and Control (8kHz) feeding into the Dual Analog Switch.* 
+*Figure 3: Block diagram output showing the Message (2kHz) and Control (8kHz) feeding into the Dual Analog Switch.* 
 
 <br>
 
@@ -92,16 +86,8 @@ In this section, you will use the **Dual Analog Switch** module to sample a simp
 2.  Maintain the same message (2kHz sine) and control (8kHz digital) signals.
 3.  **Do not** pull apart the entire existing wiring; simply switch the connections to the Dual Analog Switch to substitute the switch for the S/H circuit as indicated.
 
-**Wiring Diagram Setup:**
-
-<br>
-<br>
-<br>
-[INSERT FIGURE 4 HERE]
-<br>
-<br>
-<br>
-
+**Wiring Diagram Output:**
+![Image](https://github.com/user-attachments/assets/02a233b1-1985-4cb3-ae4c-1d1ae44bd91f)
 *Figure 4: Wiring modification to enable Sample-and-Hold mode on the Dual Analog Switch.* 
 
 <br>
@@ -124,16 +110,10 @@ Commercial systems typically transmit speech or music rather than pure sine wave
 4.  Talk, sing, or hum while observing the scope display to see the sampled speech signal.
 
 **Wiring Diagram Setup:**
+![Image](https://github.com/user-attachments/assets/060a0b7f-f1db-4c11-809b-0c4291189e71)
+![Image](https://github.com/user-attachments/assets/85d1c34f-b542-4ecf-8f06-89ce06a6184f)
 
-<br>
-<br>
-<br>
-[INSERT FIGURE 6 HERE]
-<br>
-<br>
-<br>
-
-[cite_start]*Figure 6: Setup for sampling a speech signal.* [cite: 156, 164]
+*Figure 6: Setup for sampling a speech signal.* 
 
 <br>
 
@@ -151,17 +131,14 @@ Reconstruction involves recovering the original message from the sampled data. S
 3.  Disconnect the Speech module and return to the Setup shown in the figure below.
 
 **Wiring Diagram Setup:**
+![Image](https://github.com/user-attachments/assets/7a19a8f3-0ace-4eeb-9706-557a84f3f455)
+![Image](https://github.com/user-attachments/assets/a49a09cb-7ce1-4de6-8cd1-ec4a666d2e67)
 
-<br>
-<br>
-<br>
-[INSERT FIGURE 7 HERE]
-<br>
-<br>
-<br>
 
 *Figure 7: Wiring setup including the Tuneable Low-pass Filter for message reconstruction.*
 
 <br>
 
 By adjusting the filter, you should be able to reject the high-frequency sampling components and observe the reconstructed sine wave.
+
+https://github.com/user-attachments/assets/00ed504a-8412-4c23-930f-22bbd6295a2a
